@@ -6,7 +6,7 @@
       <img src="@/assets/wis_logo_carre.png" alt="Logo WIS" width="40" height="40">
       <div class="ml-2 flex flex-col">
         <h1 class="text-sm text-gray-700 font-medium">EPSI WIS</h1>
-        <p class="text-gray-400 text-xs">Lien util</p>
+        <p class="text-gray-400 text-xs">Lien utiles</p>
       </div>
     </div>
     <h3 class="text-sm font-medium text-gray-600">Titre</h3>
