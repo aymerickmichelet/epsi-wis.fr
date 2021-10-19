@@ -1,6 +1,9 @@
 {
   "name": "admin-panel",
   "version": "0.0.1",
+  "engines": {
+    "node": "14.x"
+  },
   "author": {
     "name": "Nur Muhammad",
     "website": "ngekoding.github.io"

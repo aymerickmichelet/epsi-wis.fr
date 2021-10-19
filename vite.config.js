@@ -6,7 +6,7 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   return {
-    base: mode === 'production' ? '/admin-panel/' : '/',
+    base: mode === 'production' ? '/' : '/',
     plugins: [
       vue(),
       ViteComponents({
