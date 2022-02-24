@@ -1,4 +1,6 @@
 <template>
+  <h3 class="text-sm font-medium text-gray-600 text-center">Liens Officiels</h3>
+  <br>
   <div class="grid gap-5 sm:grid-cols-3 lg:grid-cols-6">
     <div class="bg-red-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkEpsi()">
       <img src="@/assets/epsi_logo_carre.png" alt="Logo EPSI" width="40" height="40">
@@ -63,10 +65,26 @@
       </div>
     </div>
 
-    <div class="bg-blue-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkCalendz()">
-      <img src="@/assets/calendz_logo.png" alt="Logo Calendz" width="40" height="40">
+    <div class="bg-yellow-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkEvent()">
+      <img src="@/assets/fsgt_logo.png" alt="Logo FSGT" width="40" height="40">
       <div class="ml-2 mt-2 flex flex-col">
-        <h1 class="text-sm text-blue-700 font-medium">Calendz</h1>
+        <h1 class="text-sm text-yellow-700 font-medium">Inscription championnat BDS</h1>
+        <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
+      </div>
+    </div>
+
+    <div class="bg-yellow-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkBabyfoot()">
+      <img src="@/assets/babyfoot_logo.png" alt="Logo FSGT" width="40" height="40">
+      <div class="ml-2 mt-2 flex flex-col">
+        <h1 class="text-sm text-yellow-700 font-medium">Inscription Tournois Babyfoot BDS</h1>
+        <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
+      </div>
+    </div>
+
+    <div class="bg-blue-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkLydia()">
+      <img src="@/assets/lydia_logo.png" alt="Logo Calendz" width="40" height="40">
+      <div class="ml-2 mt-2 flex flex-col">
+        <h1 class="text-sm text-blue-700 font-medium">Cagnotte Lydia BDS</h1>
         <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
       </div>
     </div>

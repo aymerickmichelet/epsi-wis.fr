@@ -6,10 +6,10 @@
       <img src="@/assets/wis_logo_carre.png" alt="Logo WIS" width="40" height="40">
       <div class="ml-2 flex flex-col">
         <h1 class="text-sm text-gray-700 font-medium">EPSI WIS</h1>
-        <p class="text-gray-400 text-xs">Lien utiles</p>
+        <p class="text-gray-400 text-xs">Liens utiles</p>
       </div>
     </div>
-    <h3 class="text-sm font-medium text-gray-600">Titre</h3>
+    <h3 class="text-sm font-medium text-gray-600"></h3>
     <div class="flex">
       <div class="group flex items-center mr-3 cursor-pointer" @click="viewSource()">
         <span class="text-sm  text-gray-600 group-hover:text-gray-800">GitHub</span>
@@ -24,7 +24,7 @@ export default {
   name: 'Navbar',
   methods: {
     viewSource() {
-      window.open('https://github.com/ngekoding/admin-panel')
+      window.open('https://github.com/aymerickmichelet/epsiwis.fr')
     },
     linkEpsiWis() {
       window.location.href = 'https://epsiwis.fr'
