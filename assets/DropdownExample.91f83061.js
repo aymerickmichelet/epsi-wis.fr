@@ -1,4 +1,4 @@
-import{_ as l}from"./TwCodePreviewEditor.2d685a96.js";import{z as i,e as n,j as s,i as e,B as t,o as c}from"./vendor.d121aa1e.js";import{D as p}from"./TwDropdown.78122b1f.js";import{_ as a}from"./index.80f6b431.js";import"./TwIcon.5b113f66.js";import"./index.c3c05765.js";var d=`<dropdown>
+import{_ as l}from"./TwCodePreviewEditor.59c40775.js";import{z as i,e as n,j as s,i as e,B as t,o as c}from"./vendor.d121aa1e.js";import{D as p}from"./TwDropdown.c8ad5cb4.js";import{_ as a}from"./index.a748f73e.js";import"./TwIcon.7e42b01c.js";import"./index.c3c05765.js";var d=`<dropdown>
   <button class="px-3 py-2 bg-purple-500 text-white rounded-md">Click me!</button>
   <template #body>
     <ul>
