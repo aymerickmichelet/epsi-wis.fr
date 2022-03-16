@@ -2,6 +2,8 @@
   <h3 class="text-sm font-medium text-gray-600 text-center">Liens Officiels</h3>
   <br>
   <div class="grid gap-5 sm:grid-cols-3 lg:grid-cols-6">
+    
+    <!-- EPSI -->
     <div class="bg-red-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkEpsi()">
       <img src="@/assets/epsi_logo_carre.png" alt="Logo EPSI" width="40" height="40">
       <div class="ml-2 mt-2 flex flex-col">
@@ -10,6 +12,7 @@
       </div>
     </div>
 
+    <!-- WIS -->
     <div class="bg-yellow-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkWis()">
       <img src="@/assets/wis_logo_carre.png" alt="Logo WIS" width="40" height="40">
       <div class="ml-2 mt-2 flex flex-col">
@@ -18,6 +21,7 @@
       </div>
     </div>
     
+    <!-- Beecome -->
     <div class="bg-pink-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkBeecome()">
       <img src="@/assets/beecome_logo.png" alt="Logo Beecome" width="48" height="40">
       <div class="ml-2 mt-2 flex flex-col">
@@ -26,6 +30,7 @@
       </div>
     </div>
 
+    <!-- MyLearningBox -->
     <div class="bg-green-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkMylearningbox()">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="text-green-500" width="50" height="50">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path>
@@ -36,11 +41,38 @@
       </div>
     </div>
 
-    
+    <!-- Teams -->
     <div class="bg-purple-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkTeams()">
       <img src="@/assets/teams_logo.png" alt="Logo Teams" width="40" height="40">
       <div class="ml-2 mt-2 flex flex-col">
         <h1 class="text-sm text-purple-700 font-medium">Teams EPSI WIS Paris</h1>
+        <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
+      </div>
+    </div>
+
+    <!-- Studea -->
+    <div class="bg-red-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkStudea()">
+      <img src="@/assets/studea_logo.png" alt="Logo Studea" width="40" height="40">
+      <div class="ml-2 mt-2 flex flex-col">
+        <h1 class="text-sm text-red-700 font-medium">Studea (LEA)</h1>
+        <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
+      </div>
+    </div>
+
+    <!-- LinkedinLearning -->
+    <div class="bg-blue-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkLinkedinLearning()">
+      <img src="@/assets/linkedin_logo.png" alt="Logo Linkedin Learning" width="40" height="40">
+      <div class="ml-2 mt-2 flex flex-col">
+        <h1 class="text-sm text-blue-700 font-medium">Linkedin Learning</h1>
+        <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
+      </div>
+    </div>
+    
+    <!-- Skilvioo -->
+    <div class="bg-blue-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkSkilvioo()">
+      <img src="@/assets/skilvioo_logo.png" alt="Logo Skilvioo" width="40" height="40">
+      <div class="ml-2 mt-2 flex flex-col">
+        <h1 class="text-sm text-blue-700 font-medium">Skilvioo</h1>
         <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
       </div>
     </div>
@@ -79,30 +111,6 @@
         <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
       </div>
     </div>
-
-    <!-- <div class="bg-yellow-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkEvent()">
-      <img src="@/assets/fsgt_logo.png" alt="Logo FSGT" width="40" height="40">
-      <div class="ml-2 mt-2 flex flex-col">
-        <h1 class="text-sm text-yellow-700 font-medium">Inscription championnat BDS</h1>
-        <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
-      </div>
-    </div>
-
-    <div class="bg-yellow-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkBabyfoot()">
-      <img src="@/assets/babyfoot_logo.png" alt="Logo FSGT" width="40" height="40">
-      <div class="ml-2 mt-2 flex flex-col">
-        <h1 class="text-sm text-yellow-700 font-medium">Inscription Tournois Babyfoot BDS</h1>
-        <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
-      </div>
-    </div>
-
-    <div class="bg-blue-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkLydia()">
-      <img src="@/assets/lydia_logo.png" alt="Logo Calendz" width="40" height="40">
-      <div class="ml-2 mt-2 flex flex-col">
-        <h1 class="text-sm text-blue-700 font-medium">Cagnotte Lydia BDS</h1>
-        <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
-      </div>
-    </div> -->
   </div>
 </template>
 
@@ -135,15 +143,25 @@ export default {
     linkCalendz() {
       this.link('https://www.calendz.app/home');
     },
-    linkEvent() {
-      this.link('https://forms.gle/XSR9qHWRA6NhDkD39');
+    linkStudea() {
+      this.link('https://www.livret-alternance.com/');
     },
-    linkLydia() {
-      this.link('https://lydia-app.com/collect/36146-bds-epsi-wis-paris/fr');
+    linkSkilvioo() {
+      this.link('https://app.skilvioo.com/fr/login');
     },
-    linkBabyfoot() {
-      this.link('https://docs.google.com/forms/d/e/1FAIpQLSfmDRiCM6b6z-sS5O4rDMXXPlle3AMgS-UZwT9OSEYxaAVBNg/viewform?usp=sf_link');
-    }
+    linkLinkedinLearning() {
+      this.link('https://www.linkedin.com/learning/');
+    },
+
+    // linkEvent() {
+    //   this.link('https://forms.gle/XSR9qHWRA6NhDkD39');
+    // },
+    // linkLydia() {
+    //   this.link('https://lydia-app.com/collect/36146-bds-epsi-wis-paris/fr');
+    // },
+    // linkBabyfoot() {
+    //   this.link('https://docs.google.com/forms/d/e/1FAIpQLSfmDRiCM6b6z-sS5O4rDMXXPlle3AMgS-UZwT9OSEYxaAVBNg/viewform?usp=sf_link');
+    // }
   }
 }
 </script>
