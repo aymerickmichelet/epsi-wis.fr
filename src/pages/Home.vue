@@ -111,6 +111,14 @@
         <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
       </div>
     </div>
+
+    <div class="bg-gray-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkWiki()">
+      <img src="@/assets/wikipedia_logo.png" alt="Logo Wiki" width="40" height="40">
+      <div class="ml-2 mt-2 flex flex-col">
+        <h1 class="text-sm text-gray-700 font-medium">Wiki EpsiWis</h1>
+        <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -152,16 +160,13 @@ export default {
     linkLinkedinLearning() {
       this.link('https://www.linkedin.com/learning/');
     },
+    linkWiki() {
+      this.link('https://wiki.epsi-wis.fr/index.php');
+    }
 
-    // linkEvent() {
-    //   this.link('https://forms.gle/XSR9qHWRA6NhDkD39');
-    // },
     // linkLydia() {
     //   this.link('https://lydia-app.com/collect/36146-bds-epsi-wis-paris/fr');
     // },
-    // linkBabyfoot() {
-    //   this.link('https://docs.google.com/forms/d/e/1FAIpQLSfmDRiCM6b6z-sS5O4rDMXXPlle3AMgS-UZwT9OSEYxaAVBNg/viewform?usp=sf_link');
-    // }
   }
 }
 </script>
