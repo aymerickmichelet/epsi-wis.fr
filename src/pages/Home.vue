@@ -21,11 +21,11 @@
       </div>
     </div>
     
-    <!-- Beecome -->
-    <div class="bg-pink-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkBeecome()">
-      <img src="@/assets/beecome_logo.png" alt="Logo Beecome" width="48" height="40">
+    <!-- 360 Learning -->
+    <div class="bg-purple-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="link360Learning()">
+      <img src="@/assets/360learning_logo.png" alt="Logo 360 Learning" width="48" height="40">
       <div class="ml-2 mt-2 flex flex-col">
-        <h1 class="text-sm text-pink-700 font-medium">Beecome</h1>
+        <h1 class="text-sm text-purple-700 font-medium">360 Learning</h1>
         <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
       </div>
     </div>
@@ -104,14 +104,6 @@
       </div>
     </div>
 
-    <div class="bg-blue-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkCalendz()">
-      <img src="@/assets/calendz_logo.png" alt="Logo Calendz" width="40" height="40">
-      <div class="ml-2 mt-2 flex flex-col">
-        <h1 class="text-sm text-blue-700 font-medium">Calendz</h1>
-        <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
-      </div>
-    </div>
-
     <div class="bg-gray-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkWiki()">
       <img src="@/assets/wikipedia_logo.png" alt="Logo Wiki" width="40" height="40">
       <div class="ml-2 mt-2 flex flex-col">
@@ -135,21 +127,17 @@ export default {
     linkWis() {
       this.link('https://wis-ecoles.com');
     },
-    linkBeecome() {
-      this.link('https://www.beecome.io/login');
+    link360Learning() {
+      this.link('https://cas-p.wigorservices.net/cas/login?service=https%3A%2F%2Fcas-p.wigorservices.net%2Fcas%2Fidp%2Fprofile%2FSAML2%2FCallback%3FentityId%3Dhttps%253A%252F%252Fapp.360learning.com');
     },
     linkMylearningbox() {
       this.link('https://mylearningbox.reseau-cd.fr/login/index.php');
     },
     linkDiscord() {
-      alert("Les inscriptions se font par mail. Veuillez contacter aymerick.michelet@epsi.fr");
-      this.link('mailto:aymerick.michelet@epsi.fr?subject=Inscription Discord EPSI WIS Paris&body=Bonjour, je souhaiterais faire partie du discord de l\'école EPSI WIS Paris...');
+      this.link('https://discord.gg/65QSKyksyY');
     },
     linkTeams() {
       this.link('https://teams.microsoft.com/l/team/19%3a6ed2a774e16f4c4e85500e848d3aa5da%40thread.tacv2/conversations?groupId=949051cb-3961-4d6a-b89d-5c9e7bdad75f&tenantId=b6e77e52-65f6-4dec-b7d9-8e45f36a536f');
-    },
-    linkCalendz() {
-      this.link('https://www.calendz.app/home');
     },
     linkStudea() {
       this.link('https://www.livret-alternance.com/');
