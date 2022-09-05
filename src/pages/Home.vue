@@ -41,15 +41,6 @@
       </div>
     </div>
 
-    <!-- Teams -->
-    <div class="bg-purple-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkTeams()">
-      <img src="@/assets/teams_logo.png" alt="Logo Teams" width="40" height="40">
-      <div class="ml-2 mt-2 flex flex-col">
-        <h1 class="text-sm text-purple-700 font-medium">Teams EPSI WIS Paris</h1>
-        <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
-      </div>
-    </div>
-
     <!-- Studea -->
     <div class="bg-red-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkStudea()">
       <img src="@/assets/studea_logo.png" alt="Logo Studea" width="40" height="40">
@@ -145,9 +136,6 @@ export default {
     },
     linkDiscord() {
       this.link('https://discord.gg/65QSKyksyY');
-    },
-    linkTeams() {
-      this.link('https://teams.microsoft.com/l/team/19%3a6ed2a774e16f4c4e85500e848d3aa5da%40thread.tacv2/conversations?groupId=949051cb-3961-4d6a-b89d-5c9e7bdad75f&tenantId=b6e77e52-65f6-4dec-b7d9-8e45f36a536f');
     },
     linkStudea() {
       this.link('https://www.livret-alternance.com/');
