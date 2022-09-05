@@ -99,7 +99,15 @@
         </defs>
       </svg>
       <div class="ml-2 mt-2 flex flex-col">
-        <h1 class="text-sm text-purple-700 font-medium">Discord EPSI WIS Paris</h1>
+        <h1 class="text-sm text-purple-700 font-medium">Discord BDE MOODS</h1>
+        <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
+      </div>
+    </div>
+
+    <div class="bg-pink-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkInstagram()">
+      <img src="@/assets/instagram_logo.png" alt="Logo Wiki" width="40" height="40">
+      <div class="ml-2 mt-2 flex flex-col">
+        <h1 class="text-sm text-pink-700 font-medium">Instagram BDE MOODS</h1>
         <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
       </div>
     </div>
@@ -111,6 +119,8 @@
         <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
       </div>
     </div>
+
+    
   </div>
 </template>
 
@@ -150,6 +160,9 @@ export default {
     },
     linkWiki() {
       this.link('https://wiki.epsi-wis.fr/index.php');
+    },
+    linkInstagram() {
+      this.link('https://www.instagram.com/bde_epsi_wis_paris');
     }
 
     // linkLydia() {
