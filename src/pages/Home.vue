@@ -129,7 +129,7 @@ export default {
       this.link('https://wis-ecoles.com');
     },
     link360Learning() {
-      this.link('https://cas-p.wigorservices.net/cas/login?service=https%3A%2F%2Fcas-p.wigorservices.net%2Fcas%2Fidp%2Fprofile%2FSAML2%2FCallback%3FentityId%3Dhttps%253A%252F%252Fapp.360learning.com');
+      this.link('https://reseau-cd.360learning.com/');
     },
     linkMylearningbox() {
       this.link('https://mylearningbox.reseau-cd.fr/login/index.php');
