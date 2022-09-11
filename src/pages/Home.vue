@@ -111,6 +111,15 @@
       </div>
     </div>
 
+    <!-- BDE MOODS SPORT INSCRIPTION -->
+    <div class="bg-yellow-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkBDEMOODSSPORT()">
+      <img src="@/assets/sport_logo.png" alt="Logo Sport" width="40" height="40">
+      <div class="ml-2 mt-2 flex flex-col">
+        <h1 class="text-sm text-yellow-700 font-medium">Inscription Championnat Foot/Basket</h1>
+        <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
+      </div>
+    </div>
+
     
   </div>
 </template>
@@ -151,6 +160,9 @@ export default {
     },
     linkInstagram() {
       this.link('https://www.instagram.com/bde_epsi_wis_paris');
+    },
+    linkBDEMOODSSPORT() {
+      this.link('https://forms.gle/wjX2WFvs5Cujbdp59');
     }
 
     // linkLydia() {
