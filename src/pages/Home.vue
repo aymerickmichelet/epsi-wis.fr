@@ -30,17 +30,6 @@
       </div>
     </div>
 
-    <!-- MyLearningBox -->
-    <div class="bg-green-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkMylearningbox()">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="text-green-500" width="50" height="50">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path>
-      </svg>
-      <div class="ml-2 mt-2 flex flex-col">
-        <h1 class="text-sm text-green-700 font-medium">MyLearningBox</h1>
-        <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
-      </div>
-    </div>
-
     <!-- Studea -->
     <div class="bg-red-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkStudea()">
       <img src="@/assets/studea_logo.png" alt="Logo Studea" width="40" height="40">
@@ -59,14 +48,6 @@
       </div>
     </div>
     
-    <!-- Skilvioo -->
-    <div class="bg-blue-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkSkilvioo()">
-      <img src="@/assets/skilvioo_logo.png" alt="Logo Skilvioo" width="40" height="40">
-      <div class="ml-2 mt-2 flex flex-col">
-        <h1 class="text-sm text-blue-700 font-medium">Skilvioo</h1>
-        <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
-      </div>
-    </div>
   </div>
 
   <br>
@@ -140,17 +121,11 @@ export default {
     link360Learning() {
       this.link('https://reseau-cd.360learning.com/');
     },
-    linkMylearningbox() {
-      this.link('https://mylearningbox.reseau-cd.fr/login/index.php');
-    },
     linkDiscord() {
       this.link('https://discord.gg/65QSKyksyY');
     },
     linkStudea() {
       this.link('https://www.livret-alternance.com/');
-    },
-    linkSkilvioo() {
-      this.link('https://app.skilvioo.com/fr/login');
     },
     linkLinkedinLearning() {
       this.link('https://www.linkedin.com/learning/');
