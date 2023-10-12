@@ -76,13 +76,13 @@
       </div>
     </div>
 
-    <div class="bg-pink-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkInstagram()">
+    <!-- <div class="bg-pink-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkInstagram()">
       <img src="@/assets/instagram_logo.png" alt="Logo Wiki" width="40" height="40">
       <div class="ml-2 mt-2 flex flex-col">
         <h1 class="text-sm text-pink-700 font-medium">Instagram BDE EWP</h1>
         <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
       </div>
-    </div>
+    </div> -->
 
     <div class="bg-gray-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkWiki()">
       <img src="@/assets/wikipedia_logo.png" alt="Logo Wiki" width="40" height="40">
@@ -140,7 +140,7 @@ export default {
       this.link('https://reseau-cd.360learning.com/');
     },
     linkDiscord() {
-      this.link('https://discord.gg/65QSKyksyY');
+      this.link('https://discord.gg/CzkwDc3AVq');
     },
     linkStudea() {
       this.link('https://www.livret-alternance.com/');
@@ -151,9 +151,9 @@ export default {
     linkWiki() {
       this.link('https://wiki.epsi-wis.fr/index.php');
     },
-    linkInstagram() {
-      this.link('https://www.instagram.com/bde_epsi_wis_paris');
-    },
+    // linkInstagram() {
+    //   alert('Non disponible pour le moment');
+    // },
     linkAdhesionBDE() {
       this.link('https://forms.gle/L3DmdUtEjQEtBFg49');
     },
