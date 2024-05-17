@@ -100,25 +100,6 @@
         <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
       </div>
     </div>
-
-    <!-- BDE EWP candidature bureau -->
-    <div class="bg-yellow-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkCandidatureBureauBDE()">
-      <img src="@/assets/bdeewp_logo.png" alt="Logo Sport" width="40" height="40">
-      <div class="ml-2 mt-2 flex flex-col">
-        <h1 class="text-sm text-yellow-700 font-medium">Formulaire candidature bureau BDE EWP</h1>
-        <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
-      </div>
-    </div>
-
-    <!-- BDE EWP candidature conseil administration -->
-    <div class="bg-yellow-50 rounded-xl p-5 cursor-pointer items-center justify-center flex" @click="linkCandidatureCABDE()">
-      <img src="@/assets/bdeewp_logo.png" alt="Logo Sport" width="40" height="40">
-      <div class="ml-2 mt-2 flex flex-col">
-        <h1 class="text-sm text-yellow-700 font-medium">Formulaire candidature conseil administration BDE EWP</h1>
-        <external-link-icon-o class="w-4 h-4 text-gray-600 group-hover:text-gray-800" />
-      </div>
-    </div>
-
     
   </div>
 </template>
@@ -156,16 +137,7 @@ export default {
     // },
     linkAdhesionBDE() {
       this.link('https://forms.gle/L3DmdUtEjQEtBFg49');
-    },
-    linkCandidatureBureauBDE() {
-      this.link('https://forms.gle/N52joaGdC3TaEC3n9');
-    },
-    linkCandidatureCABDE() {
-      this.link('https://forms.gle/1poVokxHQiniUF1n9');
     }
-    // linkLydia() {
-    //   this.link('https://lydia-app.com/collect/36146-bds-epsi-wis-paris/fr');
-    // },
   }
 }
 </script>
